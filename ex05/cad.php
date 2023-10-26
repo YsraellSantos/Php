@@ -16,13 +16,14 @@
     <main>
 
     <?php 
-    
+
+   
        $nome = $_GET["name"] ??  "sem nome";
        $sobrenomee = $_GET["sobrenome"] ?? "desconhecido";
        $t = $_GET["telefone"];
 
        echo " É um prazer em te conhecer $nome $sobrenomee  este é o meu site em php e o meu telefone é $t";
-    ?>
+     ?>
 
     <p><a href="javascript:history.go(-1)">Volta para a pagina anterior</a></p>
 
