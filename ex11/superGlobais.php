@@ -12,6 +12,8 @@
     <pre>
         <?php
 
+     
+
         setcookie("Dia-da-semana", "Segunda", time() + 3600);// 1hora tem 3600 segundos
 
         session_start();
