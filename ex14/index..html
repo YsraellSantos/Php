@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infome seu salario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <main>
+
+        <form action="salario.php"  method="get">
+
+            <h1>Informe seu salario</h1>
+
+            <label for="salario">Salario</label>
+            <input type="number" placeholder="Digite aqui" name="dados" step="0.02">  
+          <!-- a função step servi pra dizer que pode enviar numeros com ponto flutuante 0.02 -->
+
+            <p>Considerando que o sarario minimo é <strong>R$1.380,60</strong></p>
+
+            <input type="submit" value="Calcular">
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
